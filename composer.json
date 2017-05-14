@@ -1,0 +1,53 @@
+{
+    "name": "ak/funny-design-patterns",
+    "description": "Funny Design Patterns.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "cybercog",
+        "cog",
+        "design-pattern",
+        "oop"
+    ],
+    "authors": [
+        {
+            "name": "Anton Komarev",
+            "email": "a.komarev@cybercog.su",
+            "homepage": "http://ell.folio.su",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/a-komarev/funny-design-patterns",
+    "support": {
+        "email": "oss@cybercog.su",
+        "issues": "https://github.com/a-komarev/funny-design-patterns/issues",
+        "wiki": "https://github.com/a-komarev/funny-design-patterns/wiki",
+        "source": "https://github.com/a-komarev/funny-design-patterns",
+        "docs": "https://github.com/a-komarev/funny-design-patterns/wiki"
+    },
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^1.11",
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "AK\\FunnyDesignPatterns\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AK\\FunnyDesignPatterns\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
