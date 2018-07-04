@@ -1,5 +1,5 @@
 {
-    "name": "ak/funny-design-patterns",
+    "name": "antonkomarev/funny-design-patterns",
     "description": "Funny Design Patterns.",
     "type": "library",
     "license": "MIT",
@@ -17,13 +17,13 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/a-komarev/funny-design-patterns",
+    "homepage": "https://github.com/antonkomarev/funny-design-patterns",
     "support": {
         "email": "open@cybercog.su",
-        "issues": "https://github.com/a-komarev/funny-design-patterns/issues",
-        "wiki": "https://github.com/a-komarev/funny-design-patterns/wiki",
-        "source": "https://github.com/a-komarev/funny-design-patterns",
-        "docs": "https://github.com/a-komarev/funny-design-patterns/wiki"
+        "issues": "https://github.com/antonkomarev/funny-design-patterns/issues",
+        "wiki": "https://github.com/antonkomarev/funny-design-patterns/wiki",
+        "source": "https://github.com/antonkomarev/funny-design-patterns",
+        "docs": "https://github.com/antonkomarev/funny-design-patterns/wiki"
     },
     "require": {
         "php": "^7.1"
